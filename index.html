@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lydia Achungo | Portfolio</title>
+
+  <!-- 🌸 SEO Metadata -->
+  <meta name="description" content="Portfolio of Lydia Achungo - Aspiring Cloud & Data Engineer | ALX Cloud Computing Learner">
+  <meta name="keywords" content="Lydia Achungo, Cloud Engineer, Data Engineer, AWS, Python, SQL, ALX">
+  <meta name="author" content="Lydia Achungo">
+
+  <!-- 🌸 Icons Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     /* General Styles */
     body {
@@ -15,7 +24,7 @@
       scroll-behavior: smooth;
     }
     header {
-      background: linear-gradient(135deg, #4CAF50, #2e7d32);
+      background: linear-gradient(135deg, #0077b6, #009688);
       color: white;
       padding: 1.5rem 2rem;
       text-align: center;
@@ -31,12 +40,12 @@
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #ffe082;
+      color: #ffdd57;
     }
     .hero {
       text-align: center;
       padding: 5rem 2rem;
-      background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+      background: linear-gradient(to right, #e3f2fd, #e0f7fa);
       animation: fadeIn 2s ease-in-out;
     }
     .hero img {
@@ -44,12 +53,12 @@
       height: 140px;
       border-radius: 50%;
       margin-bottom: 1rem;
-      border: 3px solid #4CAF50;
+      border: 3px solid #0077b6;
     }
     .hero h1 {
       font-size: 2.8rem;
       margin-bottom: 0.5rem;
-      color: #2e7d32;
+      color: #006d77;
     }
     .hero p {
       font-size: 1.2rem;
@@ -63,7 +72,7 @@
     h2 {
       text-align: center;
       margin-bottom: 1rem;
-      color: #2e7d32;
+      color: #0077b6;
       position: relative;
     }
     h2::after {
@@ -71,7 +80,7 @@
       display: block;
       width: 60px;
       height: 3px;
-      background: #4CAF50;
+      background: #009688;
       margin: 0.5rem auto;
     }
 
@@ -103,17 +112,46 @@
     }
     .card-body h3 {
       margin: 0.5rem 0;
-      color: #388e3c;
+      color: #006d77;
     }
     .card-body p {
       color: #555;
       font-size: 0.95rem;
     }
 
+    /* Buttons & Icons */
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      margin: 1rem 0.5rem;
+      background: #0077b6;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #009688;
+    }
+    .social-icons {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #0077b6;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #009688;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
-      background: #4CAF50;
+      background: linear-gradient(135deg, #0077b6, #009688);
       color: white;
       margin-top: 2rem;
     }
@@ -137,10 +175,11 @@
   </header>
 
   <div class="hero">
-    <!-- Replace the src link with your own photo later -->
+    <!-- Replace src with your real photo -->
     <img src="https://via.placeholder.com/140" alt="Lydia's Photo">
     <h1>Hello, I’m Lydia 🌸</h1>
     <p>Aspiring Cloud & Data Engineer | ALX Cloud Computing Learner</p>
+    <a href="Lydia_Achungo_CV.pdf" class="btn" download>📄 Download CV</a>
   </div>
 
   <section id="about">
@@ -188,8 +227,11 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: favouredlydia725@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/lydiaachungo" target="_blank">Lydia Achungo</a></p>
-    <p>GitHub: <a href="https://github.com/lydiaachungo" target="_blank">github.com/lydiaachungo</a></p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/lydiaachungo" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/lydiaachungo" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:favouredlydia725@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
   </section>
 
   <footer>
